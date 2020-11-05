@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<link rel="stylesheet" type="text/css" href="practice1.css">
+	<title>Appllication</title>
+</head>
+<body>
+	<form>
+	<div class="outside">
+	<div class="container">
+	<h1 class="text-center">Application For Permission To Date My Daughter</h1>
+	<p id="info"><b>Note:</b>Form is to be competed at least 21 days prior to date</p>
+	<legend>Personal Details</legend>
+	<div>
+			<div>
+			<label for="name">Name:</label>
+			<input id="name" type="text" placeholder="Enter name here" required></div>
+			<div>
+			<label for="Address">Address:</label>
+			<input id="Address" type="Address" placeholder="Enter address here" required></div>
+			<div>
+			<label for="email">Email:</label>
+			<input id="email" type="email" placeholder="Enter email here" required>
+			</div>
+			<div>
+				<label for="number">Phone Number:</label>
+				<input id="number" type="number" placeholder="Enter 10 digit number" min="1" max="9">
+			</div>
+			<div>
+				<label id="iq-lable" for="iq">IQ:</label>
+				<input id="iq" type="number" name="iq" placeholder="Enter IQ here">
+			</div>
+			<div>
+				<label for="Gender">Gender</label>
+				<p>
+				<input id="Gender" type="radio" name="gender" value="male" checked> Male<br>
+				<input type="radio" id="Gender" name="gender" value="female"> Female<br>
+				<input type="radio" id="Gender" name="gender" value="Other"> Other
+			</p>
+			</div>
+			<label for="date-label">Date of Proposed Outing:</label>
+    <input type="date" name="bday">
+ 		</form>
+	</div>
+	<fieldset>
+		<p>
+		<label for="Gender">Check All That Apply</label><br>
+		<input id="Gender" type="checkbox" name="tattos" value="tattos"> I have tattoos and/or piercing<br>
+		<input type="checkbox" id="gender" name="car" value="work"> I am more than 2 years older than my daughter<br>
+		<input id="Gender" type="checkbox" name="rich" value="rich"> I own a panel van or v8<br>
+		<input id="Gender" type="checkbox" name="loc" value="loc"> I work full time<br>
+		<input type="checkbox" name="rich" value="rich" id="Gender" checked> My parents are rich
+		</p>
+	</fieldset>
+	</div>
+		 <h4>Essay Section</h4>
+		 <hr>
+		 <fieldset>
+		 	<p>In 50 words or more explain why you want to date my daughter</p>
+		 	<textarea rows="4" cols="50" placeholder="Enter Text Here"></textarea>
+		 	<p><b>Please Upload contact details for 2 references</b></p>
+		 	<textarea rows="4" cols="50" placeholder="Enter Text Here"></textarea>
+		 	<p>upload Police Clearance Certificate, Bank Statement and Medical Certificates Here
+		 	<button class="btn btn-danger">Attach Files</button></p>
+		 	
+		 </fieldset>
+
+		 <button type="submit" id="submit" class="btn btn-danger">Send your application</button>
+		
+</div>
+</body>
+</html>
